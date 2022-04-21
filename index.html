@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>HTML FORM ASSIGNMENT</title>
+</head>
+<body>
+<div class="header" id="#myHeader">
+<h1>Student Registration Form</h1>
+</div>
+<div>
+<form action="">
+<p>
+<label for="name">
+Name:
+</label>
+<input type="text" id="name" placeholder="Enter Full Name">
+</p>
+<p>
+<label for="fname">
+Father's name:
+</label>
+<input type="text" id="fname">
+</p>
+<p>
+<label for="mname">
+<span>Mother's Name: </span>
+</label>
+<input type="text" id="mname">
+</p>
+<p>
+<label for="phone">
+<span>Phone Number: </span>
+</label>
+<input type="text" id="mname" placeholder=8979xxxxxx>
+</p>
+<p>
+<label for="mname">
+<span>Email: </span>
+</label>
+<input type="text" id="mname"
+placeholder="sample@example.com">
+</p>
+<p>
+<label for="gender">
+<span>Gender: </span>
+</label>
+<input type="radio" name="radio">
+Male
+<input type="radio" name="radio">
+Female
+<input type="radio" name="radio">
+Other
+</p>
+<p>
+<label for="DOB">
+<span>Date Of Birth: </span>
+</label>
+<input type="date" name="date">(dd-mm-yyyy)
+</p>
+<p>
+<label for="address">
+<span>Address: </span>
+</label>
+<input type="text" id="address"
+placeholder="Street:- House:- Road:- ">
+</p>
+<p>
+<label for="BG">
+<span>Blood Group: </span>
+</label>
+<select name="BLOOD GROUP" id="blg">
+<option value="select">Select</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+</select>
+</p>
+<p>
+<label for="department">
+<span>Department: </span>
+</label>
+<input type="radio" name="radio">
+CSE
+<input type="radio" name="radio">
+EEE
+<input type="radio" name="radio">
+BBA
+</p>
+<p>
+<label>
+Course
+</label>
+<input type="checkbox" name="checkbox">
+C
+<input type="checkbox" name="checkbox">
+C++
+<input type="checkbox" name="checkbox">
+JAVA
+<input type="checkbox" name="checkbox">
+AI
+<input type="checkbox" name="checkbox">
+Machine Learning
+<input type="checkbox" name="checkbox">
+Robotics
+</p>
+<p>
+<label for="img">Photo: </label>
+<input type="file" id="img">
+</p>
+<p>
+<label>
+<a href="">Submit</a>
+<button style="border-radius: 7px;">Reset</button>
+</label>
+</p>
+</form>
+</div>
+<div>
+<table>
+<h2>TABLE WITH RECORDS</h2>
+<tr>
+<th>SNO</th>
+<th>Name</th>
+<th>Phone Number</th>
+<th>Gender</th>
+<th>City</th>
+<th>Hobbies</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>Kritika Sharma</td>
+<td>8979809698</td>
+<td>Female</td>
+<td>Agra</td>
+<td>Badminton</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Komal</td>
+<td>8979809678</td>
+<td>Female</td>
+<td>Mathura</td>
+<td>Sleeping</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Rohini</td>
+<td>8979876534</td>
+<td>Female</td>
+<td>Delhi</td>
+<td>Chess</td>
+</tr>
+</table>
+</div>
+<!-- DEMO DEMONSTRATING POSITION  question two-->
+<div>
+<h2>POSITION PROPERTY</h2>
+<!-- Static -->
+<h3>STATIC (Normal Order of webpage)</h3>
+<div class="box-orange"></div>
+<div class="box-green"></div>
+<!-- Relative -->
+<h3>RELATIVE (The element gets positioned relative to itself)</h3>
+<div class="box-red"></div>
+<div class="box-black"></div>
+<!-- Absolute -->
+<h3>ABSOLUTE (The element gets positioned relative to its parent)</h3>
+<div class="container">
+<div class="box-yellow"></div>
+<div class="box-brown"></div>
+</div>
+<!-- FIXED -->
+<h3>FIXED (Only relative to html document)</h3>
+<div class="container2">
+<div class="box-violet"></div>
+<div class="box-indigo"></div>
+</div>
+</div>
+<!-- Display Property -->
+<div>
+<h2>DISPLAY PROPERTY</h2>
+<!-- INLINE -->
+<h3>Inline</h3>
+<div>
+The HyperText Markup Language or HTML is the standard markup 
+language for documents designed to be displayed in a <p class="inline">web 
+browser</p>. It can be assisted by technologies such as Cascading Style Sheets 
+and scripting languages such as JavaScript.
+</div>
+<!-- BLOCK -->
+<h2>BLOCK</h2>
+<div>
+The HyperText Markup Language or HTML is the standard markup 
+language for documents designed to be displayed in a <p class="block">web 
+browser</p>. It can be assisted by technologies such as Cascading Style Sheets 
+and scripting languages such as JavaScript. 
+</div>
+<!-- INLINE BLOCK -->
+<h2>INLINE BLOCK</h2>
+<div>
+The HyperText Markup Language or HTML is the standard markup 
+language for documents designed to be displayed in a <p class="inlineblock">web browser</p>. It can be assisted by technologies such as Cascading 
+Style Sheets and scripting languages such as JavaScript.
+</div>
+</div>
+<!-- FLOAT PROPERTY -->
+<div>
+<h2>FLOAT PROPERTY(THE IMAGE HAS FLOAT TO RIGHT OF ITS CONTAINER)</h2>
+<p>WHAT IS HTML AND CSS?</p>
+<p><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGgAaAMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQQCAwUG/9oACAEBAAAAAPSgAANW0ARyOb6oAcTm7/TAFPlVfRWQCryb3SAEcm3cADCpdkAGOQNdOW3HYwm0RBKJRkAAAAP/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/aAAoCAhADEAAAAAAALW26OflANd4rnkATYioEyRAAAAAAf//EACwQAAICAQMCBAUFAQAAAAAAAAECAxEAEiExBDATIkFRICMyQHEFNGFygZH/2gAIAQEAAT8A+0lmjhALtVmh27FE3sOcPXlZXkItapVxpJJ5lZzbF17ckz1Jv9Z3yQ234zoYzJ1Ufsp1HtTu6SbHYrkhoDIYXnkEacnk+wzpumj6ZKXcnlu11S7K3tko2z9MiCwF/Vz22UMCDwcmiKkqc6H9uF9VZh3JI1kFHEV+mcmrQ81isGAIII7ulbuvjlVmjdVNEjGhdmX5ChAxOkac8CX328UuF/JxIJl0/wB0sX6KMKMEg8tsqBaNVhjfTQTzLdte74xkYy+SvErkjy1jxH5mkBSZCf8ANNZ4ZZ0Kr4YBHB9QDvgSS0coLJ9wV+on4CARRzSKqvSs0LYNbgUMCKKocZpH/DeAAZoWqr1vNI3/AJ5zSLBwIo07ccfe/wD/xAAdEQACAgEFAAAAAAAAAAAAAAABAgARIBIwMUBh/9oACAECAQE/ANlV1SgoJySO1mslNRubxr3qf//EAB8RAAIABgMBAAAAAAAAAAAAAAECAAMREiBhMDFAQf/aAAgBAwEBPwDhVbotVQTrKVExyTT5krWmG7Jxpvyf/9k=">HTML is the language for describing the 
+structure of Web pages. HTML gives authors the means to:
+Publish online documents with headings, text, tables, lists, 
+photos, etc.
+Retrieve online information via hypertext links, at the click of a 
+button.
+Design forms for conducting transactions with remote services, for 
+use in searching for information, making reservations, ordering products, etc.
+Include spread-sheets, video clips, sound clips, and other 
+applications directly in their documents.
+With HTML, authors describe the structure of pages using markup. 
+The elements of the language label pieces of content such as “paragraph,” 
+“list,” “table,” and so on.HTML is the language for describing the structure 
+of Web pages. HTML gives authors the means to:
+Publish online documents with headings, text, tables, lists, 
+photos, etc.
+Retrieve online information via hypertext links, at the click of a 
+button.
+Design forms for conducting transactions with remote services, for 
+use in searching for information, making reservations, ordering products, etc.
+Include spread-sheets, video clips, sound clips, and other 
+applications directly in their documents.
+With HTML, authors describe the structure of pages using markup. 
+The elements of the language label pieces of content such as “paragraph,” 
+“list,” “table,” and so on.HTML is the language for describing the structure 
+of Web pages. HTML gives authors the means to:
+Publish online documents with headings, text, tables, lists, 
+photos, etc.
+Retrieve online information via hypertext links, at the click of a 
+button.
+Design forms for conducting transactions with remote services, for 
+use in searching for information, making reservations, ordering products, etc.
+Include spread-sheets, video clips, sound clips, and other 
+applications directly in their documents.
+With HTML, authors describe the structure of pages using markup. 
+The elements of the language label pieces of content such as “paragraph,” 
+“list,” “table,” and so on.</p>
+</div>
+</body>
+</html>

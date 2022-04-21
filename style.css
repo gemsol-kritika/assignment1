@@ -1,0 +1,108 @@
+* {
+    background-color: aqua;
+    }
+    h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 0px 100px;
+    padding: 50px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    }
+    h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    /* .header {
+    position: sticky;
+    top: 0;
+    } */
+    label {
+    margin-left: 100px;
+    width: 140px;
+    display: inline-block;
+    }
+    input, select, button{
+    background-color: white;
+    }
+    input {
+    font-size: 14px;
+    border: 1.4px solid black;
+    }
+    label:last-child {
+    margin-top: 15px;
+    }
+    table {
+    margin-left: 400px;
+    margin-top: 40px;
+    }
+    /* Position Property */
+    .box-orange {
+    background: orange;
+    height: 100px;
+    width: 100px;
+    }
+    .box-green {
+    background: green;
+    height: 100px;
+    width: 100px;
+    position: static;
+    }
+    .box-red {
+    position: relative;
+    background: red;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    }
+    .box-black {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: static;
+    }
+    .container {
+    background: lightgrey;
+    position: relative;
+    }
+    .box-yellow {
+    position: absolute;
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    right: 5px;
+    }
+    .box-brown {
+    background: brown;
+    height: 100px;
+    width: 100px;
+    }
+    .container2 {
+    position: relative;
+    background: lightgray;
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+    }
+    .box-violet {
+        background: violet;
+        height: 100px;
+        width: 100px;
+        position: fixed;
+        right: 5px;
+        }
+        .box-indigo {
+        background: rgb(37, 3, 62);
+        height: 100px;
+        width: 100px;
+        }
+        p.inline {display: inline;color: red;}
+        p.block {display: block;color: red}
+        p.inline-block {display: inline-block;color: red;}
+        img {
+        float: right;
+        }
